@@ -66,24 +66,25 @@ int main()
 
 /*#include<stdio.h>            /// num = 14
 
-void func(int n)
+void func(int arr[], int n)
 {
-    int arr[n],i;
-    for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         if(arr[i] %2 == 0){
                 printf("%d ", arr[i]);
     }
     }
-}
+}MMMMMmmm
 int main()
 {
     int n,i;
     scanf("%d",&n);
 
-    func(n);
+    int arr[n];
+    for(i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+
+    func(arr, n);
     return 0;
 }*/
 
